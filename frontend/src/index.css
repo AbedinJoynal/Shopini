@@ -1,0 +1,75 @@
+main {
+    min-height: 80vh;
+}
+.rating span {
+    margin: 0.1rem;
+}
+
+h4 {
+    padding: 1rem 0;
+}
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    background: rgb(52, 58, 64) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(52, 58, 64, 0.7682423311121324) 24%,
+        rgba(50, 54, 74, 0) 51%,
+        rgba(52, 58, 64, 0.7654412106639531) 79%
+    ) !important;
+}
+.carousel-caption {
+    position: absolute;
+    top: 0;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+}
+
+.carousel img {
+    height: 300px;
+    padding: 30px;
+    margin: 40px;
+
+    border-radius: 3rem !important;
+}
+.carousel a {
+    margin: 0 auto;
+}
+.container {
+    margin-bottom: 1rem;
+}
+.banner__content {
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 2px;
+}
+.header {
+    background: rgb(52, 58, 64) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(52, 58, 64, 0.7682423311121324) 24%,
+        rgba(50, 54, 74, 0.5042735042735043) 51%,
+        rgba(52, 58, 64, 0.7654412106639531) 79%
+    ) !important;
+}
+footer {
+    width: 100%;
+    padding: 0.001rem;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: rgb(52, 58, 64) !important;
+    background-repeat: no-repeat;
+}
