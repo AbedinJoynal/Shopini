@@ -30,7 +30,7 @@ const ProductCarousel = () => {
                                     textAlign: 'center',
                                 }}
                             >
-                                {product.name} (Tk {product.price})
+                                {product.name} for Tk-{product.price}
                             </h3>
                         </Carousel.Caption>
                     </Link>

@@ -28,19 +28,25 @@ h3 {
 }
 .carousel-caption {
     position: absolute;
-    top: 0;
+    top: -1rem;
 }
 
 .carousel-caption h3 {
     color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
 }
 
 .carousel img {
-    height: 300px;
-    padding: 30px;
-    margin: 40px;
-
-    border-radius: 3rem !important;
+    height: 350px;
+    margin-top: 1.2rem;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28rem;
+    border-radius: 100px;
 }
 .carousel a {
     margin: 0 auto;
@@ -66,10 +72,10 @@ h3 {
 footer {
     width: 100%;
     padding: 0.001rem;
+    padding-top: 0.9rem !important;
     color: white;
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 600;
     background: rgb(52, 58, 64) !important;
     background-repeat: no-repeat;
 }

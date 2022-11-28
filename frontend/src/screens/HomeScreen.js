@@ -173,7 +173,7 @@ const HomeScreen = () => {
                 <br />
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-6">
+                        <div className="col-xl-4 col-lg-4 col-md-6 py-2">
                             <div
                                 style={{
                                     backgroundImage:
@@ -211,7 +211,7 @@ const HomeScreen = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
+                        <div className="col-xl-4 col-lg-4 col-md-6 py-2">
                             <div
                                 style={{
                                     backgroundImage:
@@ -249,7 +249,7 @@ const HomeScreen = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
+                        <div className="col-xl-4 col-lg-4 col-md-6 py-2">
                             <div
                                 style={{
                                     backgroundImage:
