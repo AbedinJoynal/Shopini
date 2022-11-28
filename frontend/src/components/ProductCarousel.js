@@ -28,6 +28,7 @@ const ProductCarousel = () => {
                             <h3
                                 style={{
                                     textAlign: 'center',
+                                    
                                 }}
                             >
                                 {product.name} for Tk-{product.price}
