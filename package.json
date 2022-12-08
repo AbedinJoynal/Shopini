@@ -9,12 +9,13 @@
     "type": "module",
     "scripts": {
         "start": "node backend/server",
+        "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
         "server": "nodemon backend/server",
         "client": "npm start --prefix frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "data:import": "node backend/seeder",
-        "data:destroy": "node backend/seeder -d",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+        "data:destroy": "node backend/seeder -d"
+        
     },
     "author": "",
     "license": "ISC",
