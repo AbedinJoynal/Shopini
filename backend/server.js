@@ -30,20 +30,19 @@ app.get('/api/config/paypal', (req, res) =>
 const __dirname = path.resolve();
 app.use('/uploads', express.static(path.join(__dirname, '/uploads')));
 
-// if (process.env.NODE_ENV === 'production') {
-//     app.use(express.static(path.join(__dirname, '/frontend/build')));
-//     app.get('*', (req, res) =>
-//         res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
-//     );
-// } else {
-//     app.get('/', (req, res) => {
-//         res.send('Server is Running...');
-//     });
-// }
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '/frontend/build')));
+    app.get('*', (req, res) =>
+        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
+    );
+} else {
+    app.get('/', (req, res) => {
+        res.send('Server is Running...');
+    });
+}
 app.get('/', (req, res) => {
     res.send('server is connected for shopini');
 });
 app.listen(PORT, () => {
     console.log(`Server is connected on ${process.env.NODE_ENV} mode`);
 });
-
