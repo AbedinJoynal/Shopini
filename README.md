@@ -58,6 +58,4 @@ npm run build
 
 ## License
 The MIT License
-
 Copyright (c) 2023 Abedin Joynal
-```
