@@ -1,4 +1,3 @@
-```
 # Shopini
 
 This is a full stack Ecommerce web application built using the MERN stack (MongoDB, Express, React, Node.js). Users can browse products, add them to a cart, and checkout to place orders. Admin users can manage products, orders, and users.
