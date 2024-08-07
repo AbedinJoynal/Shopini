@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shopini/static/css/main.2e1a7c02.css",
+    "main.js": "/Shopini/static/js/main.fb64600a.js",
+    "index.html": "/Shopini/index.html",
+    "main.2e1a7c02.css.map": "/Shopini/static/css/main.2e1a7c02.css.map",
+    "main.fb64600a.js.map": "/Shopini/static/js/main.fb64600a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e1a7c02.css",
+    "static/js/main.fb64600a.js"
+  ]
+}
